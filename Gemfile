@@ -32,10 +32,10 @@ gem "momentjs-rails"
 gem "select2-rails"
 gem "ckeditor"
 gem "social-share-button"
+gem "faker"
 
 group :development, :test do
   gem "pry-rails"
-  gem "faker"
   gem "awesome_print"
   gem "binding_of_caller"
   gem "better_errors"
