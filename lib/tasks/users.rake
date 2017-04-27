@@ -6,7 +6,7 @@ namespace :users do
       user = User.find_or_initialize_by email: email
       user.assign_attributes name: "Root Admin", password: password, gender: :male,
         address: "Ky tuc xa DMC 579, Da Nang", id_number: "191837949#{n}", role: :admin,
-        phone_number: "01206213188#{n}", blood_type: :type_b
+        phone_number: "01206213188#{n}", blood_type: :b_pos
       user.skip_confirmation!
       begin
         user.save!

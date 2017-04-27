@@ -9,7 +9,7 @@
     <%= stylesheet_link_tag "admin/main", media: "all" %>
     <%= stylesheet_link_tag "customize_alert.css", media: "all" %>
     <%= stylesheet_link_tag "customize_checkboxes.css", media: "all" %>
-    <%= favicon_link_tag "favicon.ico" %>
+    <link rel="icon" href="<%= asset_path "favicon.ico" %>" type="image/x-icon">
 
     <!-- Specific Page Vendor CSS -->
     <%= content_for :specific_page_css %>

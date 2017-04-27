@@ -8,6 +8,11 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  def after_sign_in_path_for resource
+    admin_page = admin_root_path if current_user.admin? || current_user.limited?
+    request.env['omniauth.origin'] || admin_page || stored_location_for(resource) || root_path
+  end
+
   protected
   def render_404
     render "shared/404", status: 404

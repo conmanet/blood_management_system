@@ -1,0 +1,560 @@
+/* line 5, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.wrapper .main-panel {
+  overflow: auto;
+}
+/* line 8, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.wrapper .sidebar, .wrapper .sidebar-wrapper, .wrapper .logo {
+  background-color: #fff;
+}
+/* line 11, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.wrapper .sidebar::after {
+  background-color: #fff;
+}
+/* line 14, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.wrapper .sidebar .sidebar-wrapper {
+  overflow: auto;
+}
+/* line 18, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.wrapper .sidebar img.logo-image {
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  width: 48px;
+}
+/* line 24, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.wrapper .sidebar a.simple-text {
+  text-align: left;
+  padding-left: 60px;
+}
+
+/* line 31, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.main-panel > .content {
+  padding: 0px;
+}
+
+@media (min-width: 992px) {
+  /* line 36, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+  .navbar-form {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 15px;
+  }
+}
+/* line 45, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+form.header-form .form-group {
+  margin: 0;
+}
+
+/* line 50, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.custom-pagination {
+  margin-top: 15px;
+  text-align: center;
+}
+/* line 54, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.custom-pagination .pagination-sm {
+  display: inline-flex;
+}
+/* line 57, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.custom-pagination .pagination-sm li.active {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #9c27b0;
+}
+/* line 63, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.custom-pagination .pagination-sm li.active a {
+  color: white;
+}
+/* line 69, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.custom-pagination .pagination-sm li a {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+/* line 78, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.navbar-form.filter-form-customize .form-control {
+  margin-left: 20px;
+}
+
+/* line 85, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.table-responsive table.table thead {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+/* line 93, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+table.table td span {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+/* line 99, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.table-group {
+  table-layout: fixed;
+}
+
+/* line 104, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.card-content .nano-content {
+  position: inherit !important;
+  max-height: 300px;
+}
+/* line 108, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.card-content .table-content {
+  padding: 0px;
+}
+
+/* line 113, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.link-success {
+  padding: 1px 5px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  background-color: rgba(76, 175, 80, 0.65);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* line 122, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.link-success:hover,
+.link-success:visited,
+.link-success:focus {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+/* line 129, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.text-primary {
+  color: #9c27b0 !important;
+}
+
+/* line 133, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.row-gray {
+  background-color: #f5f5f5 !important;
+}
+
+/* line 137, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.row-pickable {
+  cursor: pointer;
+}
+
+/* line 141, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.row-pickable:hover {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* line 147, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.customize-capcha {
+  display: inline-block;
+  margin: 0;
+}
+/* line 150, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.customize-capcha .alert-empty {
+  border: 1px solid rgba(0, 0, 0, 0.54) !important;
+  animation: border 0.8s ease;
+}
+
+@keyframes border {
+  from {
+    outline-color: rgba(156, 39, 176, 0.54);
+    outline-width: 10px;
+    outline-style: solid;
+    outline-offset: -1px;
+  }
+  to {
+    outline-width: 0px;
+  }
+}
+/* line 168, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-capcha {
+  height: 41px;
+  margin: 10px 0;
+  width: 120px;
+  position: absolute;
+  right: 120px;
+  bottom: 15px;
+}
+/* line 175, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-capcha .customize-capcha {
+  position: absolute;
+  bottom: 7px;
+}
+
+/* line 181, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+a:hover {
+  color: #9c27b0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* line 188, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-actions a {
+  margin: 0 5px;
+}
+/* line 191, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-actions .btn-edit {
+  color: #ff9800 !important;
+}
+/* line 194, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-actions .btn-destroy {
+  color: #f44336 !important;
+}
+/* line 197, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-actions .btn-destroy.disabled {
+  color: #ababab !important;
+  cursor: not-allowed;
+}
+
+/* line 203, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-clear-search {
+  color: rgba(85, 85, 85, 0.55);
+}
+
+/* line 207, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-clear-search:hover {
+  color: #9c27b0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* line 214, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.admin-history-form span.select2-selection, .new_user span.select2-selection {
+  border-color: #d2d2d2;
+  border-radius: inherit;
+  border-width: 0px;
+  border-bottom-width: 1px;
+}
+
+/* line 222, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.non-break-line {
+  white-space: nowrap;
+}
+
+/* line 226, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.input-group-addon-file {
+  background-color: #9c27b0 !important;
+}
+
+/* line 231, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.form-group.has-success-no-color label.control-label {
+  color: #AAAAAA;
+}
+/* line 234, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.form-group.has-success-no-color input.form-control {
+  border-color: #9c27b0;
+}
+
+/* line 239, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.form-group.has-success-no-color.is-focused .form-control {
+  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+}
+
+/* line 243, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.form-control-addon {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 6px;
+}
+
+/* line 250, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.form-control-addon:hover {
+  cursor: pointer;
+}
+
+/* line 254, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.toggle-maps {
+  color: #9c27b0;
+}
+
+/* line 258, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.show-maps {
+  color: #cecece;
+}
+
+/* line 262, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.maps {
+  margin-bottom: 10px;
+}
+/* line 264, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.maps .location-picker {
+  height: 350px;
+}
+
+/* line 269, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+#register-place-modal {
+  z-index: 1500;
+}
+/* line 271, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+#register-place-modal .modal-body {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 278, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.modal-footer input.btn {
+  margin: 0;
+}
+
+/* line 283, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.no-margin {
+  margin: 0px !important;
+}
+
+/* line 287, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.section-404 {
+  padding-left: 30px;
+}
+/* line 289, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.section-404 h1 {
+  font-size: 100px;
+  margin-bottom: 0px;
+  line-height: 50px;
+}
+/* line 293, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.section-404 h1 span {
+  font-size: 26px;
+}
+/* line 297, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.section-404 h3 {
+  margin: 0px;
+}
+
+/* line 302, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+#map {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 70px);
+  margin-top: 70px;
+}
+
+/* line 309, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+#nav-filter-form .form-control {
+  margin-right: 20px;
+  min-width: 75px;
+}
+
+/* line 314, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+#map-center-address {
+  width: 300px;
+}
+
+@media screen and (max-width: 1800px) {
+  /* line 319, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+  .form-inline {
+    display: inline-flex;
+    max-width: 92%;
+    overflow-x: hidden;
+  }
+
+  /* line 324, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+  .nav-icon {
+    display: inherit !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  /* line 330, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+  #admin-search.nav-bar-search {
+    display: block;
+    position: innitial !important;
+  }
+
+  /* line 334, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+  .nav-icon {
+    display: none !important;
+  }
+
+  /* line 338, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+  #admin-search.nav-bar-search .form-group .form-control, #admin-search.nav-bar-search .form-group {
+    width: 100%;
+  }
+  /* line 341, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+  #admin-search.nav-bar-search .form-group:last-child, #admin-search.nav-bar-search #search-query {
+    width: 90%;
+  }
+
+  /* line 345, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+  .btn-submit-nav-bar {
+    position: absolute;
+    margin: 0;
+    right: 0;
+    top: 230px;
+    height: 42px;
+    border: 1px solid #d2d2d2;
+  }
+}
+/* line 355, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.form-inline {
+  display: inline-flex;
+}
+
+/* line 359, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.nav-icon-left {
+  margin-right: 5px;
+}
+
+/* line 362, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.nav-icon-right {
+  margin-left: 5px;
+}
+
+/* line 365, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.nav-icon {
+  line-height: 42px;
+  height: 42px;
+  vertical-align: bottom;
+  display: none;
+}
+
+/* line 371, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.nav-icon:hover {
+  cursor: pointer;
+  color: black;
+}
+
+/* line 376, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.form-wrapper {
+  display: -webkit-box;
+  padding: 0 15px;
+}
+
+/* line 381, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.filter-row div:first-child, .filter-row-2 .thin-row {
+  height: 41px;
+}
+
+@media screen and (max-width: 990px) {
+  /* line 386, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+  .filter-form-customize {
+    padding-right: 65px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 390, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+  .filter-form-customize button {
+    margin-top: -10px;
+  }
+}
+/* line 396, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.sidebar[data-active-color="purple"] li.active > a,
+.off-canvas-sidebar[data-active-color="purple"] li.active > a {
+  background-color: #9c27b0 !important;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4) !important;
+}
+
+/* line 402, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.sidebar .nav li.active > a,
+.sidebar .nav li.active > a i,
+.off-canvas-sidebar .nav li.active > a,
+.off-canvas-sidebar .nav li.active > a i {
+  color: #FFFFFF !important;
+}
+
+/* line 409, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  color: #ffffff !important;
+}
+
+/* line 414, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+#login-info a.active {
+  background-color: #9c27b0;
+  color: white;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
+}
+
+/* line 420, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.dropdown-menu-seperator {
+  margin: 0 5px;
+}
+
+/* line 424, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+table.table thead tr th {
+  white-space: nowrap;
+}
+
+/* line 428, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.donation-type-wrapper {
+  padding-bottom: 0px;
+  height: 36px;
+  position: relative;
+}
+/* line 432, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.donation-type-wrapper .donation-types {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+}
+/* line 436, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.donation-type-wrapper .donation-types label {
+  color: #555555;
+}
+/* line 439, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.donation-type-wrapper .donation-types label:first-child {
+  margin-right: 30px;
+}
+
+/* line 445, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 449, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+table.stats {
+  margin-top: 20px;
+}
+/* line 451, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+table.stats td.key {
+  font-weight: bold;
+}
+/* line 454, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+table.stats td.value {
+  padding: 0 30px 0 5px;
+}
+
+/* line 459, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.gr-fields {
+  border: 1px solid #c0c0c0;
+  padding: inherit;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+/* line 466, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.gr-fields legend {
+  width: auto;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+/* line 474, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.search-criteria {
+  margin-left: 10px;
+}
+
+/* line 478, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.yellow-tooltip + .tooltip > .tooltip-inner {
+  background-color: rgba(255, 247, 0, 0.7);
+}
+
+/* line 482, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.yellow-tooltip + .tooltip > .tooltip-arrow {
+  border-bottom-color: rgba(255, 247, 0, 0.7);
+}
+
+/* line 486, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.user-stats {
+  display: inline-block;
+}
+/* line 488, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.user-stats p {
+  height: 41px;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+}
+/* line 493, /home/sontd/workspace/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.user-stats p span {
+  font-weight: bold;
+  margin: 0 5px;
+}

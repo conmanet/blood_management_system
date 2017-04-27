@@ -7,6 +7,11 @@
           <div class="row">
             <div class="col-lg-12 col-12 col-sm-12">
               <div class="single_blog">
+                <div class="events_slider_area">
+                  <div class="events_slider">
+                    <div><%= image_tag @event.image.url, alt: @event.title %></div>
+                  </div>
+                </div>
                 <div class="event-title">
                   <% if @event.is_expired? %>
                     <div class="corner-ribbon top-right sticky red shadow">

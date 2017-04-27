@@ -1,0 +1,223 @@
+/* line 2, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.wrapper .main-panel {
+  overflow: auto;
+}
+/* line 5, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.wrapper .sidebar, .wrapper .sidebar-wrapper, .wrapper .logo {
+  background-color: #fff;
+}
+/* line 8, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.wrapper .sidebar::after {
+  background-color: #fff;
+}
+/* line 11, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.wrapper .sidebar .sidebar-wrapper {
+  overflow: auto;
+}
+
+/* line 16, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.main-panel > .content {
+  padding: 0px;
+}
+
+@media (min-width: 992px) {
+  /* line 21, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+  .navbar-form {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 15px;
+  }
+}
+/* line 30, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+form.header-form .form-group {
+  margin: 0;
+}
+
+/* line 35, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.custom-pagination {
+  margin-top: 15px;
+  text-align: center;
+}
+/* line 39, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.custom-pagination .pagination-sm {
+  display: inline-flex;
+}
+/* line 42, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.custom-pagination .pagination-sm li.active {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #9c27b0;
+}
+/* line 48, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.custom-pagination .pagination-sm li.active a {
+  color: white;
+}
+/* line 54, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.custom-pagination .pagination-sm li a {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+/* line 63, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.navbar-form.filter-form-customize .form-control {
+  margin-left: 20px;
+}
+
+/* line 70, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.table-responsive table.table thead {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+/* line 78, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+table.table td span {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+/* line 84, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.table-group {
+  table-layout: fixed;
+}
+
+/* line 89, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.card-content .nano-content {
+  position: inherit !important;
+  max-height: 300px;
+}
+/* line 93, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.card-content .table-content {
+  padding: 0px;
+}
+
+/* line 98, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.link-success {
+  padding: 1px 5px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  background-color: rgba(76, 175, 80, 0.65);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* line 107, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.link-success:hover,
+.link-success:visited,
+.link-success:focus {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+/* line 114, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.text-primary {
+  color: #9c27b0 !important;
+}
+
+/* line 118, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.row-gray {
+  background-color: #f5f5f5 !important;
+}
+
+/* line 122, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.row-pickable {
+  cursor: pointer;
+}
+
+/* line 126, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.row-pickable:hover {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* line 132, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.customize-capcha {
+  display: inline-block;
+  margin: 0;
+}
+/* line 135, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.customize-capcha .alert-empty {
+  border: 1px solid rgba(0, 0, 0, 0.54) !important;
+  animation: border 0.8s ease;
+}
+
+@keyframes border {
+  from {
+    outline-color: rgba(156, 39, 176, 0.54);
+    outline-width: 10px;
+    outline-style: solid;
+    outline-offset: -1px;
+  }
+  to {
+    outline-width: 0px;
+  }
+}
+/* line 153, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-capcha {
+  height: 41px;
+  margin: 10px 0;
+  width: 120px;
+  position: absolute;
+  right: 120px;
+  bottom: 15px;
+}
+/* line 160, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-capcha .customize-capcha {
+  position: absolute;
+  bottom: 7px;
+}
+
+/* line 166, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+a:hover {
+  color: #9c27b0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* line 173, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-actions a {
+  margin: 0 5px;
+}
+/* line 176, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-actions .btn-edit {
+  color: #ff9800 !important;
+}
+/* line 179, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-actions .btn-destroy {
+  color: #f44336 !important;
+}
+/* line 182, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-actions .btn-destroy.disabled {
+  color: #ababab !important;
+  cursor: not-allowed;
+}
+
+/* line 188, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-clear-search {
+  color: rgba(85, 85, 85, 0.55);
+}
+
+/* line 192, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.btn-clear-search:hover {
+  color: #9c27b0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* line 199, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.admin-history-form span.select2-selection {
+  border-color: #d2d2d2;
+  border-radius: inherit;
+  border-width: 0px;
+  border-bottom-width: 1px;
+}
+
+/* line 207, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.non-break-line {
+  white-space: nowrap;
+}
+
+/* line 211, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/admin/main.scss */
+.input-group-addon-file {
+  background-color: #9c27b0 !important;
+}

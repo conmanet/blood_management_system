@@ -1,0 +1,164 @@
+/* line 1, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert {
+  border: 0;
+  border-radius: 0;
+  position: relative;
+  padding: 20px 15px;
+  line-height: 20px;
+}
+
+/* line 8, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert b {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* line 13, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert, .alert.alert-default {
+  background-color: white;
+  color: #555555;
+  border-radius: 3px;
+  box-shadow: 0 12px 20px -10px rgba(255, 255, 255, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 255, 255, 0.2);
+}
+
+/* line 19, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert a, .alert .alert-link, .alert.alert-default a, .alert.alert-default .alert-link {
+  color: #555555;
+}
+
+/* line 22, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-inverse {
+  background-color: #2e2e2e;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 12px 20px -10px rgba(33, 33, 33, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(33, 33, 33, 0.2);
+}
+
+/* line 28, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-inverse a, .alert.alert-inverse .alert-link {
+  color: #fff;
+}
+
+/* line 31, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-primary {
+  background-color: #af2cc5;
+  color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
+}
+
+/* line 37, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-primary a, .alert.alert-primary .alert-link {
+  color: #ffffff;
+}
+
+/* line 40, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-success {
+  background-color: #5cb860;
+  color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(76, 175, 80, 0.2);
+}
+
+/* line 46, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-success a, .alert.alert-success .alert-link {
+  color: #ffffff;
+}
+
+/* line 49, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-info {
+  background-color: #00d3ee;
+  color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2);
+}
+
+/* line 55, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-info a, .alert.alert-info .alert-link {
+  color: #ffffff;
+}
+
+/* line 58, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-warning {
+  background-color: #ffa21a;
+  color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+
+/* line 64, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-warning a, .alert.alert-warning .alert-link {
+  color: #ffffff;
+}
+
+/* line 67, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-danger {
+  background-color: #f55a4e;
+  color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2);
+}
+
+/* line 73, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-danger a, .alert.alert-danger .alert-link {
+  color: #ffffff;
+}
+
+/* line 76, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-rose {
+  background-color: #eb3573;
+  color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 12px 20px -10px rgba(233, 30, 99, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(233, 30, 99, 0.2);
+}
+
+/* line 82, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-rose a, .alert.alert-rose .alert-link {
+  color: #ffffff;
+}
+
+/* line 85, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert-info, .alert-danger, .alert-warning, .alert-success {
+  color: #ffffff;
+}
+
+/* line 88, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert-default a, .alert-default .alert-link {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* line 91, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert i[data-notify="icon"] {
+  font-size: 30px;
+  display: block;
+  left: 15px;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+
+/* line 99, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert span {
+  display: block;
+  max-width: 89%;
+}
+
+/* line 103, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert .alert-icon {
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 108, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert .alert-icon i {
+  margin-top: -7px;
+  top: 5px;
+  position: relative;
+}
+
+/* line 114, /home/framgia/sontd/blood_management_system/app/assets/stylesheets/customize_alert.scss */
+.alert.alert-with-icon {
+  padding-left: 65px;
+}

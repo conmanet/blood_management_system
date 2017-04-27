@@ -6,10 +6,10 @@ class Admin::BaseController < BaseController
   end
 
   rescue_from CanCan::AccessDenied do
-    if current_user&.normal?
-      render "shared/404", layout: "application", status: 404
-    else
+    if current_user&.admin? || current_user&.limited?
       render_403
+    else
+      render "shared/404", layout: "application", status: 404
     end
   end
 

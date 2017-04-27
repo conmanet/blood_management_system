@@ -27,7 +27,7 @@ class Admin::ArticlesController < Admin::BaseController
 
   def update
     @article.assign_attributes update_params
-    @article.assign_attributes title_slug: make_slug if @article.title_changed?
+    @article.assign_attributes title_slug: make_slug
     if @article.save
       flash[:success] = is_public? ? "Thay đổi đã được lưu." : "Đã đóng bài viết."
       redirect_to admin_articles_path
@@ -53,7 +53,7 @@ class Admin::ArticlesController < Admin::BaseController
 
   def update_params
     params[:article].merge! is_public: is_public?
-    params.require(:article).permit :title, :content, :image, :is_public
+    params.require(:article).permit :title, :content, :image, :is_public, :title_slug, :user_id
   end
 
   def is_public?

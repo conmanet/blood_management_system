@@ -33,11 +33,11 @@ gem "select2-rails"
 gem "ckeditor"
 gem "social-share-button"
 gem "jquery-ui-rails"
+gem "faker"
 gem "addressable"
 
 group :development, :test do
   gem "pry-rails"
-  gem "faker"
   gem "awesome_print"
   gem "binding_of_caller"
   gem "better_errors"
