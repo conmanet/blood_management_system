@@ -2,8 +2,9 @@
   class: "navbar-form filter-donators" do |f| %>
   <div class="form-group is-empty">
     <%= f.search_field :name_or_id_number_or_phone_number_cont, class: "form-control",
-      placeholder: "Tìm kiếm...", title: "Tìm kiếm tên, số CMND hoặc điện thoại." %>
+      placeholder: "Tìm kiếm để thêm người đã hiến máu...", title: "Tìm kiếm tên, số CMND hoặc điện thoại.", autocomplete: :off %>
       <span class="material-input"></span>
+    <%= f.hidden_field :blood_type_compatible, value: patient.blood_type %>
   </div>
   <button type="submit" class="btn btn-primary btn-round btn-just-icon">
     <i class="material-icons">search</i><div class="ripple-container"></div>

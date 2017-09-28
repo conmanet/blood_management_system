@@ -1,5 +1,5 @@
 <table class="patient-profile donators-table">
-  <thead>
+  <thead class="t-head">
     <tr>
       <th colspan="2">Những người đã hiến máu cho <%= patient.name + " [#{patient.users.size}]" %></th>
     </tr>
@@ -11,12 +11,12 @@
           <%= render "search_bar", patient: patient, q: q %>
         </div>
         <div id="results">
-          <% if q.result.blank? %>
-            <p class="no-result-subt text-danger">Chưa có thông tin về người đã hiến máu cho bệnh nhân này.</p>
-          <% end %>
+          <%= render "donators_table", donators: [] %>
         </div>
         <% if patient.users.any? %>
-          <p class="no-result-subt text-danger">table user histories here</p>
+          <p class="no-result-subt text-danger">// lich su hien mau o day!</p>
+        <% else %>
+          <p class="no-result-subt text-danger">Chưa có thông tin về người đã hiến máu cho bệnh nhân này.</p>
         <% end %>
       </td>
     </tr>

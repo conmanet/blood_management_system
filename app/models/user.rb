@@ -32,6 +32,8 @@ class User < ApplicationRecord
 
   before_save downcase_email: -> {self.email.downcase! if self.email.present?}
 
+  scope :blood_type_compatible_with, -> blood_type {where blood_type: blood_type}
+
   def status
     return :unknown unless self.histories.any?
     next_donation_due_date = self.histories.eldest.last.next_donation_due_date

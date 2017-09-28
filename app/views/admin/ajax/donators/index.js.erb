@@ -1,0 +1,36 @@
+$("#results").html("<%= j render 'admin/patients/donators_table', donators: @donators %>");
+var table = $("#dt-table").DataTable({
+  bInfo: false,
+  bLengthChange: false,
+  pageLength: 5,
+  bFilter: false,
+  oLanguage: {
+    oPaginate: {
+      sPrevious: "<< Trang trước",
+      sNext: "Trang sau >>",
+      sFirst: "Đầu",
+      sLast: "Cuối"
+    }
+  }
+});
+
+$(".show-detail").on("click", function(e) {
+  e.preventDefault();
+  $(this).find(".fa")
+    .toggleClass("fa-chevron-circle-up")
+    .toggleClass("fa-chevron-circle-down");
+  var url = $(this).attr("href");
+  $.get(url, null, appendSubTable, "json");
+  var tr = $(this).closest("tr");
+  var row = table.row(tr);
+  debugger;
+  console.log(row.child);;
+});
+
+function appendSubTable(data) {
+  console.log(data);
+}
+
+function format(d) {
+
+}

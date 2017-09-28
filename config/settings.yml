@@ -40,3 +40,39 @@ histories:
 fb_search_path:
   people: "https://www.facebook.com/search/people/?q="
   home: "https://www.facebook.com"
+blood_recipient_scheme:
+  a_pos:
+    - a_pos
+    - a_neg
+    - o_pos
+    - o_neg
+  a_neg:
+    - a_neg
+    - o_neg
+  b_pos:
+    - b_pos
+    - b_neg
+    - o_pos
+    - o_neg
+  b_neg:
+    - b_neg
+    - o_neg
+  ab_pos:
+    - a_pos
+    - a_neg
+    - b_pos
+    - b_neg
+    - ab_pos
+    - ab_neg
+    - o_pos
+    - o_neg
+  ab_neg:
+    - a_neg
+    - b_neg
+    - ab_neg
+    - o_neg
+  o_pos:
+    - o_pos
+    - o_neg
+  o_neg:
+    - o_neg

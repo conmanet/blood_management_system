@@ -1,0 +1,24 @@
+<% if donators.any? %>
+  <div class="col-md-12 no-padding">
+    <table class="table table-bordered" id="dt-table" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th>Họ và Tên</th>
+          <th class="max-width-80">Nhóm Máu</th>
+          <th>Địa Chỉ</th>
+          <th class="max-width-85">CMND</th>
+          <th class="max-width-100">SĐT</th>
+        </tr>
+      </thead>
+      <tbody>
+        <%= render partial: "admin/patients/donator", collection: donators %>
+      </tbody>
+    </table>
+  </div>
+<% end %>
+
+<%= content_for :specific_page_js do %>
+  <script type="text/javascript">
+    <%= render "admin/patients/donators_datatable.js" %>
+  </script>
+<% end %>

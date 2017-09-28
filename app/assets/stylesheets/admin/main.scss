@@ -596,7 +596,7 @@ table.stats {
 }
 
 .patient-profile {
-  thead {
+  .t-head {
     th {
       text-transform: uppercase;
       font-weight: bold;
@@ -618,5 +618,59 @@ table.stats {
   }
   .form-control {
     width: 100%;
+  }
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.donators-table {
+  .dataTables_wrapper {
+    display: table;
+  }
+
+  #dt-table {
+    thead tr th {
+      font-size: 15px;
+      font-weight: normal;
+      text-align: left;
+    }
+    tbody tr td {
+      font-size: 14px;
+      font-weight: normal;
+    }
+    .max-width-80 {
+      width: 80px !important;
+    }
+    .max-width-85 {
+      width: 85px !important;
+    }
+    .max-width-100 {
+      width: 100px !important;
+    }
+  }
+
+  .pagination li a:hover,
+  .pagination li a:focus {
+    background-color: #9b27b0;
+    color: white;
+  }
+
+  .pagination > li > a,
+  .pagination > li > span {
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+
+  table.dataTable thead .sorting_desc_disabled:after {
+    bottom: 10px;
+  }
+
+  table.dataTable thead .sorting:after,
+  table.dataTable thead .sorting_asc:after,
+  table.dataTable thead .sorting_desc:after,
+  table.dataTable thead .sorting_asc_disabled:after {
+    margin-top: 6px;
   }
 }

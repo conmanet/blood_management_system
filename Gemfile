@@ -34,6 +34,7 @@ gem "ckeditor"
 gem "social-share-button"
 gem "jquery-ui-rails"
 gem "addressable"
+gem 'active_model_serializers', '~> 0.10.6'
 
 group :development, :test do
   gem "pry-rails"

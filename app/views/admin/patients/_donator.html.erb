@@ -1,0 +1,15 @@
+<tr>
+  <td>
+    <%= link_to admin_ajax_donator_path(donator), class: "show-detail" do %>
+      <i class="text-success fa fa-chevron-circle-down"></i>
+      <%= donator.name %>
+    <% end %>
+  </td>
+  <td class="non-break-line max-width-80 text-center"><%= donator.display_blood_type %></td>
+  <td><%= donator.address %></td>
+  <td class="non-break-line max-width-85"><%= donator.id_number %></td>
+  <td class="non-break-line max-width-100">
+    <%= format_phone_number donator.phone_number %>
+    <%= "<br>#{format_phone_number donator.phone_number_2}".html_safe if donator.phone_number_2? %>
+  </td>
+</tr>
